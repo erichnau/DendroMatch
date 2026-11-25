@@ -1,4 +1,42 @@
+# Python environments
 .venv/
+venv/
+env/
+
+# Python caches
 __pycache__/
 *.py[cod]
-.idea/workspace.xml
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local PyCharm settings
+.idea/
+
+# Test coverage
+.coverage
+.coverage.*
+htmlcov/
+
+# Build output
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Local datasets and generated exports
+/local_data/
+/exports/
+/outputs/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Operating-system files
+Thumbs.db
+Desktop.ini
+.DS_Store
